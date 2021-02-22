@@ -15,6 +15,24 @@ as the Energy Efficiency row (middle row)*/
     cursor: pointer;
 }
 
+.lead{
+    font-family: 'Neuton', serif;
+    border-top: 1px solid rgb(17, 250, 207);
+    margin: 0;
+    margin-top: 13px;
+    color: rgb(17, 250, 207);
+}
+
+.col-text{
+    margin: 20px 0 10px 0;
+    /*color: rgb(198, 250, 10);*/
+    padding: 0;
+}
+
+.button-class{
+    padding: 0;
+}
+
 .carousel .carousel-item {height: 100vh;}
 
 .carousel-item img {
@@ -26,7 +44,7 @@ as the Energy Efficiency row (middle row)*/
     opacity: 0.3;
 }
 
-#download-font {
+.download-font {
    font-family: 'Roboto', sans-serif;
 }
 
@@ -42,6 +60,10 @@ bg-success{
 }
 .btn-danger{
   background-color:rgb(125, 50, 168);
+}
+
+#footer-name{
+    margin-bottom: 0;
 }
 
 @media(min-width: 1199px){
